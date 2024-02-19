@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>account</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h2 id="identified-by">IDENTIFIED BY: <span id="identified-by-truecaller">Truecaller</span></h2>
+  <h1 id="call">Call</h1>
+  <h3 id="mobile">
+    <ion-icon name="call-outline"></ion-icon>
+    093351 9
+    <span id="mobile-jio">Mobile Jio</span>
+  </h3>
+  <ion-item lines="none">
+    <ion-label>
+      <ion-text color="medium">
+        <p id="last-seen">Last seen: <span id="last-seen-wednesday">Wednesday</span></p>
+      </ion-text>
+    </ion-label>
+  </ion-item>
+  <ion-item lines="none">
+    <ion-icon name="logo-whatsapp" slot="start"></ion-icon>
+    <ion-label>
+      <p id="whatsapp">WhatsApp</p>
+    </ion-label>
+  </ion-item>
+  <ion-item lines="none">
+    <ion-label>
+      <p id="suggest-a-better-name">SUGGEST A BETTER NAME:</p>
+      <ion-input id="message" type="text" placeholder="Type a better name here"></ion-input>
+    </ion-label>
+  </ion-item>
+  <ion-item lines="none">
+    <ion-label>
+      <p id="more-info">More info available</p>
+    </ion-label>
+  </ion-item>
+  <ion-button id="upgrade-button" expand="block" color="primary">Upgrade to Premium to view</ion-button>
+  <ion-button id="block-button" expand="block" color="danger">Block</ion-button>
+  <p id="unmoderated">THE DISPLAYED CONTENT IS UNMODERATED</p>
+</ion-content>
