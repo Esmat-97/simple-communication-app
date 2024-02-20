@@ -23,5 +23,8 @@ $ npm install -g ionic
 $ ionic start myIonicApp blank 
 $ cd myIonicApp
 $ ionic serve
+```
+# Demo
 
+[Screencast from 2024-02-20 02-09-28.webm](https://github.com/Esmat-97/simple-communication-app/assets/158211063/8975dde0-7d04-4a1f-af6f-a152ac26f620)
 
